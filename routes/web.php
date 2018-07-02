@@ -33,3 +33,6 @@ Route::get('/architectHouses', 'ArchitectHousesController@architectHouses')->nam
 Route::get('/architectInfrastracture', 'ArchitectInfrastractureController@architectInfrastracture')->name('architectInfrastracture');
 Route::get('/architectOtherdesign', 'ArchitectOtherDesignController@architectOtherdesign')->name('architectOtherdesign');
 Route::get('/architectUpload', 'ArchitectUploadDesignController@architectUpload')->name('architectUpload');
+
+Route::get('/sampleregister', 'HomeController@sampleregister')->name('sampleregister');
+Route::get('/samplelogin', 'HomeController@samplelogin')->name('samplelogin');

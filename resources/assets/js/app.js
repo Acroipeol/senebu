@@ -32,6 +32,9 @@ Vue.component('architectinfrastracture', require('./components/architectInfrastr
 Vue.component('architectotherdesign', require('./components/architectOtherDesign.vue'));
 Vue.component('architectupload', require('./components/architectUpload.vue'));
 
+Vue.component('sampleregister', require('./components/sampleregister.vue'));
+Vue.component('samplelogin', require('./components/samplelogin.vue'));
+
 const app = new Vue({
     el: '#app'
 });

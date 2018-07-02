@@ -187,4 +187,13 @@ body {
     padding-top: 56px;
   }
 }
+
+.list-group-item {
+  color: #444;
+}
+
+.list-group-item:hover {
+  background-color: #eeecec;
+  color: #444;
+}
 </style>
